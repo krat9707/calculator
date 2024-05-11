@@ -1,4 +1,4 @@
-*, body {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -17,41 +17,49 @@
     width: 400px;
     border: 5px solid black;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .wholeScreen {
+    width: 350px;
     border: 5px solid black;
     background-color: rgb(137, 137, 137);
     border-radius: 10px;
+    padding: 10px 20px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
-.equationScreen {
+.upperScreen {
     min-height: 32px;
+    font-size: 25px;
 }
 
-.outputScreen {
+.lowerScreen {
     min-height: 64px;
+    font-size: 45px;
 }
 
 #buttonSet {
-   margin-top: 20px;
-   display: flex;
-   flex-flow: row wrap;
+    width: 350px;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
 }
 
 .button {
     flex: 1 1 auto;
     height: 70px;
     width: 70px;
-    margin: 5px;
     border-radius: 10px;
     background-color: coral;
     font-size: large;
     font-weight: 500;
 }
 
-.equal {
+.equal, .AC {
     flex: 2 1 auto;
     width: 140px;
 }

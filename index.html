@@ -5,35 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krat's Calculator</title>
     <link rel="stylesheet" href="styles.css">
-    <style src="functions.js" defer></style>
+    <script src="functions.js" defer></script>
 </head>
 <body ondragstart="return false;" ondrop="return false;">
     <div id="wrapper">
         <div id="calcBody">
             <div class="wholeScreen">
-                <div class="equationScreen"></div>
-                <div class="outputScreen"></div>
+                <div class="upperScreen"></div>
+                <div class="lowerScreen">0</div>
             </div>
             <div id="buttonSet">
-                <button class="AC button">AC</button>
-                <button class="C button">C</button>
-                <button class="percent button">%</button>
-                <button class="divisor button">÷</button>
-                <button class="7 button">7</button>
-                <button class="8 button">8</button>
-                <button class="9 button">9</button>
-                <button class="plus button">+</button>
-                <button class="4 button">4</button>
-                <button class="5 button">5</button>
-                <button class="6 button">6</button>
-                <button class="dash button">-</button>
-                <button class="1 button">1</button>
-                <button class="2 button">2</button>
-                <button class="3 button">3</button>
-                <button class="cross button">x</button>
-                <button class="0 button">0</button>
-                <button class="dot button">.</button>
-                <button class="equal button">=</button>
+                <button class="AC button cmd">AC</button>
+                <button class="C button cmd">C</button>
+                <button class="divide button func">÷</button>
+                <button class="7 button num">7</button>
+                <button class="8 button num">8</button>
+                <button class="9 button num">9</button>
+                <button class="add button func">+</button>
+                <button class="4 button num">4</button>
+                <button class="5 button num">5</button>
+                <button class="6 button num">6</button>
+                <button class="minus button func">-</button>
+                <button class="1 button num">1</button>
+                <button class="2 button num">2</button>
+                <button class="3 button num">3</button>
+                <button class="mul button func">x</button>
+                <button class="0 button num">0</button>
+                <button class="dot button num">.</button>
+                <button class="equal button func">=</button>
             </div>
         </div>
     </div>
