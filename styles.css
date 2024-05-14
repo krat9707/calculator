@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Tac+One&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Righteous";
+    font-weight: 800;
 }
 
 #wrapper {
@@ -15,7 +19,8 @@
 
 #calcBody {
     width: 400px;
-    border: 5px solid black;
+    border: 5px solid rgb(37, 7, 1);
+    background-color: #eae1d6;
     border-radius: 10px;
     padding: 20px;
 }
@@ -23,12 +28,15 @@
 .wholeScreen {
     width: 350px;
     border: 5px solid black;
-    background-color: rgb(137, 137, 137);
+    background: #333333;
+    color: #eae1d6;
     border-radius: 10px;
     padding: 10px 20px;
     text-align: right;
     word-wrap: break-word;
     word-break: break-all;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+
 }
 
 .upperScreen {
@@ -53,10 +61,25 @@
     flex: 1 1 auto;
     height: 70px;
     width: 70px;
-    border-radius: 10px;
-    background-color: coral;
-    font-size: large;
+    border-radius: 3vh;
+    background-color: rgb(247, 156, 111);
+    color: #633801;
+    font-size: x-large;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(249, 104, 51);
+    box-shadow: 4px 4px 5px rgb(212, 211, 211);
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+.button:active {
+    background-color: rgb(251, 74, 10);
+    font-size: x-large;
+    transition: 0.1s;
 }
 
 .equal, .AC {
